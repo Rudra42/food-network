@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.diet_area {
+    display: flex;
+}
+
+.about_area {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.orange-button {
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: linear-gradient(salmon, tomato);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.diet_area {
+    padding: 10px 50px;
+}
+
+.first_text_area {
+    padding: 60px 50px;
+    margin-top: 40px;
+}
+
+.first_text_area p {
+    margin-bottom: 35px;
+}
+
+.about_area {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+
+}
+
+.about_area img {
+    height: 500px;
+}
+
+.recipi_text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box-area {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.box {
+    width: 25%;
+    padding: 10px 15px;
+    margin-left: 5%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
+}
+
+.box:hover {
+    background: linear-gradient(salmon, tomato);
+    color: white;
+}
+
+.box img {
+    width: 100%;
+}
+
+.full-box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
+}
+
+.box-area-one {
+    width: 25%;
+    padding: 10px 15px;
+    margin-left: 5%;
+}
+
+footer {
+    text-align: center;
+    background-color: #0A1535;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-area {
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+}
